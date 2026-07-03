@@ -1,0 +1,8 @@
+# =============================================================================
+# requirements.txt - Dependencias de Python 2.7
+# =============================================================================
+# Agregar aquí las dependencias de la aplicación.
+# Ejemplo:
+# flask==1.0.4
+# requests==2.21.0
+# gunicorn==19.9.0

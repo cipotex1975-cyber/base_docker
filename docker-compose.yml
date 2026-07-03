@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python27-app
+    ports:
+      - "8080:8080"
+    volumes:
+      # Montar el código fuente para desarrollo en tiempo real
+      - ./app:/app
+    environment:
+      - APP_ENV=development
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
