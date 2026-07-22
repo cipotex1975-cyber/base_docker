@@ -3,7 +3,7 @@
 # =============================================================================
 # Imagen base con Python 2.7 (Debian Stretch)
 # FROM python:2.7-slim-stretch
-FROM python:3.13-slim
+FROM python:3.11-slim
 
 # Metadatos del contenedor
 LABEL maintainer="ceavalos"
