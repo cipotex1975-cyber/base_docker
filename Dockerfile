@@ -2,7 +2,8 @@
 # Dockerfile - Python 2.7 Base Container
 # =============================================================================
 # Imagen base con Python 2.7 (Debian Stretch)
-FROM python:2.7-slim-stretch
+# FROM python:2.7-slim-stretch
+FROM python:3.13-slim
 
 # Metadatos del contenedor
 LABEL maintainer="ceavalos"
