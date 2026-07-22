@@ -2,7 +2,7 @@
   "name": "Python 2.7 Docker",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/workspaces/base_docker/app/",
+  "workspaceFolder": "/app",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": { "moby": false }
   },
